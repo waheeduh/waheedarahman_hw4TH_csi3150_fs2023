@@ -3,19 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking the stylesheet from html to css -->
     <link rel="stylesheet" href="./css/styles.css"/>
     <title>Used Cars</title>
 </head>
 
 
 <body>
+    <!-- this is the code for the header. linked to contentheader in css -->
     <div class="contentheader">
-        <h1>Used Cars</h1>
+        <h1>Used Cars for Sale</h1>
+        <img src="./images/carlogo.jpeg" alt="car logo"/> 
     </div>
+    <!-- this is the search bar below the header. -->
     <form id="form" role="search">
         <input type="search" id="query" name="q" placeholder="Search...">
         <button>Search</button>
     </form>
+    <main>
+        <section class="filters">
+            <label for="filter-year">Year:</label>
+            <select id="filter-year">
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
 
+            <label for="make-filter">Make:</label>
+        </section>
+    </main>
+
+
+
+
+
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
