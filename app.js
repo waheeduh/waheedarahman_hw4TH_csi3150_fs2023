@@ -7,7 +7,7 @@ const usedCars = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
-    image: "./images/Camry,toyota.webp",
+    image: "../images/Camry,toyota.webp",
   },
   {
     year: 2016,
@@ -17,7 +17,7 @@ const usedCars = [
     price: 14000,
     color: "White",
     gasMileage: "30 mpg city, 40 mpg highway",
-    image: "./images/civic,honda.webp",
+    image: "../images/civic,honda.webp",
   },
   {
     year: 2017,
@@ -27,7 +27,7 @@ const usedCars = [
     price: 16000,
     color: "Black",
     gasMileage: "28 mpg city, 38 mpg highway",
-    image: "./images/fusion,ford.webp",
+    image: "../images/fusion,ford.webp",
   },
   {
     year: 2019,
