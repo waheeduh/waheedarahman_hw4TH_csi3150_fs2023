@@ -10,20 +10,27 @@
 
 
 <body>
+    <header>
     <!-- this is the code for the header. linked to contentheader in css -->
     <div class="contentheader">
         <h1>Used Cars for Sale</h1>
         <img src="./images/carlogo.jpeg" alt="car logo"/> 
     </div>
+
+    
     <!-- this is the search bar below the header. -->
     <form id="form" role="search">
         <input type="search" id="query" name="q" placeholder="Search...">
         <button>Search</button>
     </form>
+</header>
+
     <main>
+        <!-- this is where the options will be for the filters. -->
         <section class="filters">
             <label for="filter-year">Year:</label>
             <select id="filter-year">
+                <option value="-select-">-Select-</option>
                 <option value="2014">2014</option>
                 <option value="2015">2015</option>
                 <option value="2016">2016</option>
@@ -84,7 +91,7 @@
           <option value="Red">Red</option>
           <option value="Gray">Gray</option>
           <option value="Green">Green</option>
-        </section>
+        </select>
 
         <label for="price-filter">Price:</label>
         <select id="price-filter">
@@ -104,7 +111,8 @@
           <option value="38000">$38,000</option>
           <option value="55000">$55,000</option>
           <option value="68000">$68,000</option>
-          </select>
+        </select>
+      </section>
 
     <section class="car-listings">
         <div id="carListings" class="car-grid">
@@ -114,8 +122,6 @@
           <div class="container" id="cargrid"></div>
           <div class="car-grid" id="filteredCarListings"></div>
     </main>
-
-
 
     <script src="./js/app.js"></script>
 </body>
