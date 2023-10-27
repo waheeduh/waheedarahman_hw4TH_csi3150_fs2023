@@ -1,89 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- linking the stylesheet from html to css -->
-    <link rel="stylesheet" href="./css/styles.css"/>
-    <title>Used Cars</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
 
-
-<body>
+    <title>Used Car Sales</title>
+  </head>
+  <body>
     <header>
-    <!-- this is the code for the header. linked to contentheader in css -->
-    <div class="contentheader">
-        <h1>Used Cars for Sale</h1>
-        <img src="./images/carlogo.jpeg" alt="car logo"/> 
-    </div>
+      <div class="header-content">
+        <img src="./images/logo.png" alt="Description of the image" />
+        <h1>Used Cars For Sale</h1>
+      </div>
+    </header>
 
-    
-    <!-- this is the search bar below the header. -->
-    <form id="form" role="search">
-        <input type="search" id="query" name="q" placeholder="Search...">
-        <button>Search</button>
-    </form>
-</header>
 
     <main>
-        <!-- this is where the options will be for the filters. -->
-        <section class="filters">
-            <label for="filter-year">Year:</label>
-            <select id="filter-year">
-                <option value="-select-">-Select-</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-            </select>
+      <section class="filters">
+        <label for="yearFilter">Year:</label>
+        <select id="yearFilter">
+          <option value="-select-">-select-</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+        </select>
+       
+        <label for="makeFilter">Make:</label>
+        <select id="makeFilter">
+          <option value="-select-">-select-</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Honda">Honda</option>
+          <option value="Ford">Ford</option>
+          <option value="Nissan">Nissan</option>
+          <option value="Chevrolet">Chevrolet</option>
+          <option value="Volkswagen">Volkswagen</option>
+          <option value="Hyundai">Hyundai</option>
+          <option value="Subaru">Subaru</option>
+          <option value="Mazda">Mazda</option>
+          <option value="Kia">Kia</option>
+          <option value="Dodge">Dodge</option>
+          <option value="Cadillac">Cadillac</option>
+          <option value="Jaguar">Jaguar</option>
+          <option value="Tesla">Tesla</option>
+          <option value="Dodge">Dodge</option>
+          <option value="Porsche">Porsche</option>
+          <option value="Lexus">Lexus</option>
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+        </select>
 
-            <label for="make-filter">Make:</label>
-            <select id="make-filer"> 
-                <option value="-select-">-Select-</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Honda">Honda</option>
-                 <option value="Ford">Ford</option>
-                <option value="Nissan">Nissan</option>
-                <option value="Chevrolet">Chevrolet</option>
-                <option value="Volkswagen">Volkswagen</option>
-                <option value="Hyundai">Hyundai</option>
-                <option value="Subaru">Subaru</option>
-                <option value="Mazda">Mazda</option>
-                <option value="Kia">Kia</option>
-                <option value="Dodge">Dodge</option>
-                <option value="Cadillac">Cadillac</option>
-                <option value="Jaguar">Jaguar</option>
-                <option value="Tesla">Tesla</option>
-                <option value="Dodge">Dodge</option>
-                <option value="Porsche">Porsche</option>
-                <option value="Lexus">Lexus</option>
-                <option value="BMW">BMW</option>
-                <option value="Audi">Audi</option>
-            </select>
-
-            <label for="mileage-filter">Mileage:</label>
-            <select id="mileage-filter"> 
-                <option value="-select-">-Select-</option>
-                <option value="18000">18,000</option>
-                <option value="22000">22,000</option>
-                <option value="26000">26,000</option>
-                <option value="28000">28,000</option>
-                <option value="29000">29,000</option>
-                <option value="30000">30,000</option>
-                <option value="32000">32,000</option>
-                <option value="35000">35,000</option>
-                <option value="40000">40,000</option>
-                <option value="45000">45,000</option>
-                <option value="50000">50,000</option>
-                <option value="60000">60,000</option>
-            </select>
-
-        <label for="color-filter">Color:</label>
-        <select id="color-filter">
-          <option value="-select-">- Select -</option>
+        <label for="mileageFilter">Mileage:</label>
+        <select id="mileageFilter">
+          <option value="-select-">-select-</option>
+          <option value="18000">18,000</option>
+          <option value="22000">22,000</option>
+          <option value="26000">26,000</option>
+          <option value="28000">28,000</option>
+          <option value="29000">29,000</option>
+          <option value="30000">30,000</option>
+          <option value="32000">32,000</option>
+          <option value="35000">35,000</option>
+          <option value="40000">40,000</option>
+          <option value="45000">45,000</option>
+          <option value="50000">50,000</option>
+          <option value="60000">60,000</option>
+        </select>
+        
+        
+        <label for="colorFilter">Color:</label>
+        <select id="colorFilter">
+          <option value="-select-">-select-</option>
           <option value="Silver">Silver</option>
           <option value="White">White</option>
           <option value="Black">Black</option>
@@ -91,11 +82,12 @@
           <option value="Red">Red</option>
           <option value="Gray">Gray</option>
           <option value="Green">Green</option>
+          
         </select>
 
-        <label for="price-filter">Price:</label>
-        <select id="price-filter">
-          <option value="-select-">-Select-</option>
+        <label for="priceFilter">Price:</label>
+        <select id="priceFilter">
+          <option value="-select-">-select-</option>
           <option value="12000">$12,000</option>
           <option value="14000">$14,000</option>
           <option value="15000">$15,000</option>
@@ -113,16 +105,17 @@
           <option value="68000">$68,000</option>
         </select>
       </section>
+  
 
-    <section class="car-listings">
+      <section class="car-listings">
         <div id="carListings" class="car-grid">
-            </div>
-          </section>
-    
-          <div class="container" id="cargrid"></div>
-          <div class="car-grid" id="filteredCarListings"></div>
+        </div>
+      </section>
+
+      <div class="container" id="cargrid"></div>
+      <div class="car-grid" id="filteredCarListings"></div>
     </main>
 
-    <script src="./js/app.js"></script>
-</body>
+    <script src="/app.js"></script>
+  </body>
 </html>

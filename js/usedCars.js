@@ -90,7 +90,7 @@ const usedCars = [
     color: "White",
     gasMileage: "22 mpg city, 29 mpg highway",
   },
-  // Five more entries:
+ 
   {
     year: 2015,
     make: "Dodge",
@@ -156,3 +156,4 @@ const usedCars = [
   },
 ];
 
+module.exports = usedCars;
