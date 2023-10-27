@@ -7,7 +7,7 @@ const usedCars = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
-    image: "/images/Camry,toyota.webp",
+    image: "./images/Camry,toyota.webp",
   },
   {
     year: 2016,
@@ -17,7 +17,7 @@ const usedCars = [
     price: 14000,
     color: "White",
     gasMileage: "30 mpg city, 40 mpg highway",
-    image: "/images/civic,honda.webp",
+    image: "./images/civic,honda.webp",
   },
   {
     year: 2017,
@@ -27,7 +27,7 @@ const usedCars = [
     price: 16000,
     color: "Black",
     gasMileage: "28 mpg city, 38 mpg highway",
-    image: "/images/fusion,ford.webp",
+    image: "./images/fusion,ford.webp",
   },
   {
     year: 2019,
@@ -37,7 +37,7 @@ const usedCars = [
     price: 17000,
     color: "Blue",
     gasMileage: "27 mpg city, 36 mpg highway",
-    image: "/images/altima,nissan.jpg",
+    image: "./images/altima,nissan.jpg",
   },
   {
     year: 2015,
@@ -47,7 +47,7 @@ const usedCars = [
     price: 12000,
     color: "Red",
     gasMileage: "25 mpg city, 37 mpg highway",
-    image: "/images/malibu,chevrolet.jpg",
+    image: "./images/malibu,chevrolet.jpg",
   },
   {
     year: 2016,
@@ -57,7 +57,7 @@ const usedCars = [
     price: 15000,
     color: "Gray",
     gasMileage: "29 mpg city, 40 mpg highway",
-    image: "/images/passat,volkswagon.webp",
+    image: "./images/passat,volkswagon.webp",
   },
   {
     year: 2020,
@@ -67,7 +67,7 @@ const usedCars = [
     price: 16000,
     color: "Silver",
     gasMileage: "30 mpg city, 41 mpg highway",
-    image: "/images/elantra, hyundai.webp",
+    image: "./images/elantra, hyundai.webp",
   },
   {
     year: 2014,
@@ -77,7 +77,7 @@ const usedCars = [
     price: 14000,
     color: "Green",
     gasMileage: "22 mpg city, 30 mpg highway",
-    image: "/images/outback,subaru.webp",
+    image: "./images/outback,subaru.webp",
   },
   {
     year: 2017,
@@ -87,7 +87,7 @@ const usedCars = [
     price: 19000,
     color: "Blue",
     gasMileage: "24 mpg city, 31 mpg highway",
-    image: "/images/cx5, mazda.webp",
+    image: "./images/cx5, mazda.webp",
   },
   {
     year: 2018,
@@ -97,7 +97,7 @@ const usedCars = [
     price: 17000,
     color: "White",
     gasMileage: "22 mpg city, 29 mpg highway",
-    image: "/images/sorrento,kia.webp",
+    image: "./images/sorrento,kia.webp",
   },
   {
     year: 2015,
@@ -107,7 +107,7 @@ const usedCars = [
     price: 24000,
     color: "Black",
     gasMileage: "19 mpg city, 30 mpg highway",
-    image: "/images/challenger,dodge.webp",
+    image: "./images/challenger,dodge.webp",
   },
   {
     year: 2017,
@@ -117,7 +117,7 @@ const usedCars = [
     price: 32000,
     color: "Red",
     gasMileage: "19 mpg city, 27 mpg highway",
-    image: "/images/XT5, cadillac.png",
+    image: "./images/XT5, cadillac.png",
   },
   {
     year: 2018,
@@ -127,7 +127,7 @@ const usedCars = [
     price: 38000,
     color: "Blue",
     gasMileage: "18 mpg city, 23 mpg highway",
-    image: "/images/F-pace,jaguar.webp",
+    image: "./images/F-pace,jaguar.webp",
   },
   {
     year: 2019,
@@ -137,7 +137,7 @@ const usedCars = [
     price: 55000,
     color: "Black",
     gasMileage: "Electric (370 miles per charge)",
-    image: "/images/modelS,tesla.webp",
+    image: "./images/modelS,tesla.webp",
   },
   {
     year: 2020,
@@ -147,7 +147,7 @@ const usedCars = [
     price: 68000,
     color: "White",
     gasMileage: "20 mpg city, 26 mpg highway",
-    image: "/images/cayenne,porsche.webp",
+    image: "./images/cayenne,porsche.webp",
   },
   {
     year: 2017,
@@ -157,7 +157,7 @@ const usedCars = [
     price: 26000,
     color: "White",
     gasMileage: "21 mpg city, 30 mpg highway",
-    image: "/images/ES, lexus.jpg",
+    image: "./images/ES, lexus.jpg",
   },
   {
     year: 2016,
@@ -167,7 +167,7 @@ const usedCars = [
     price: 27000,
     color: "Black",
     gasMileage: "23 mpg city, 34 mpg highway",
-    image: "/images/5,BMW.webp",
+    image: "./images/5,BMW.webp",
   },
   {
     year: 2015,
@@ -177,7 +177,7 @@ const usedCars = [
     price: 28000,
     color: "White",
     gasMileage: "24 mpg city, 34 mpg highway",
-    image: "/images/a3,audi.avif",
+    image: "./images/a3,audi.avif",
   },
 ];
 
